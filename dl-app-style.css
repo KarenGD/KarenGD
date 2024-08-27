@@ -1,0 +1,304 @@
+.image-objective{
+    width: 40%;
+}
+
+.objective-info{
+    width: 60%;
+} 
+
+.dl-imgone-objective{
+    width: 200px;
+}
+
+.dl-imgtwo-objective{
+    width: 500px;
+}
+
+.bg-dark-dlapp{
+    background-color: #20142A;
+}
+
+.bg-purple-dlapp{
+    background-color: #5D58B8;
+}
+
+.p-yellow-dlapp{
+    color: #DCF219;
+}
+
+.bg-uxresearch-dlapp{
+    background-image: url(assets/imgs/Dl-app-ux-bg.jpg);
+    height: 575px;
+    background-size: cover;
+}
+
+.htwo-ux-ui{
+    padding-top: 220px;
+}
+
+.container-table-dlapp{
+    width: 80%;
+
+}
+/* 
+.width-userp{
+    width: 800px;
+} */
+
+.width-userp-info{
+    width: 60%;
+}
+
+.similarity-info{
+    width: 40%;
+}
+
+.hr-dl{
+    border-style: solid;
+    border-color: #5D58B8;
+    border-width:2px ;
+    margin: 2rem 0;
+}
+
+.third-with{
+    width: 33%;
+}
+
+.bg-uiresearch-dlapp{
+    background-image: url(assets/imgs/DL-app-ui.jpg);
+    height: 575px;
+    background-size: cover;
+}
+
+.full-width{
+    width: 85%;
+}
+
+.flex-start{
+    align-items: flex-start;
+}
+
+.usertest-pad{
+    padding: 3rem 0;
+}
+
+.usertest-h-width{
+    width: 20%;
+}
+
+.usertest-hfive{
+    font-size: 1.3rem;
+}
+
+.usertest-hr{
+    width: 80%;
+    margin: auto;
+}
+
+.dl-unv-p{
+    width: 60%;
+}
+
+.dl-pad-both{
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+}
+
+.dl-apps-pad{
+    padding: 0 4rem 2rem 4rem;
+}
+
+.right-margin{
+    margin-right: 8%;
+}
+
+.li-table li{
+    font-size: 1rem;
+    font-family: Geologica, sans-serif;
+    list-style: disc ;
+    font-weight: 300;
+}
+
+.center-table{
+    padding-right: 10rem;
+}
+
+.p-description{
+    font-size: 1rem;
+    font-family: Geologica, sans-serif;
+
+}
+
+.fullpage{
+    width: 100%;
+}
+
+.top-pad{
+    padding-top: 4rem;
+}
+
+.ob-flex{
+    display: flex;
+}
+
+@media (min-width : 600px) and (max-width : 1200px){
+
+}
+
+@media (max-width:600px){
+
+    .container{
+        width: 100%;
+    }
+
+    
+
+    #objective .flex{
+        display: block;
+    }
+
+    #objective .objective-info{
+        width: 100%;
+    }
+
+    
+
+    .img-objective-sp{
+        width: 100%;
+    }
+    
+    #uvp .texr-center{
+        text-align: left;
+    }
+
+    #uvp .flex {
+        flex-direction: column;
+    }
+
+    #uvp .dl-unv-p{
+        width: 100%;
+    }
+
+    .htwo-ux-ui{
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    #benchmarking .grid{
+        display: block;
+    }
+
+    .hr-dl{
+        margin: 1rem 0;
+    }
+
+    #benchmarking .right-margin{
+        margin-right: 0;
+    }
+
+    .table-sp-margin{
+        margin: 0 5%;
+    }
+
+    #users .flex{
+        display: block;
+    }
+
+    #users .width-userp-info{
+        width: 100%;
+    }
+
+    #users .texr-center{
+        text-align: left;
+    }
+
+    .img-dl-width{
+        width: 100px;
+    }
+
+    #users .third-with{
+        width: 100%;
+    }
+
+    #users .icon-width{
+        width: 70px;
+    }
+
+    #users .margin-both{
+        margin: 0;
+    }
+
+    .similarity-info{
+        width: 100%;
+    }
+
+    #architecture-info .texr-center{
+        text-align:left ;
+    }
+
+    #architecture-info .margin-both{
+        margin: 0;
+    }
+
+    .task-center{
+        text-align: center;
+    }
+
+    #prototyping .ten-columns-grid{
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    #prototyping .two-fr{
+        grid-column-start: span 1;
+    }
+
+    #prototyping h6{
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+    #usability .flex{
+        flex-direction: column-reverse;
+    }
+
+    #usability .user-test .flex{
+        flex-direction: column;
+
+    }
+
+    #usability .texr-center{
+        text-align: left;
+    }
+
+    #usability .half-with{
+        width: 100%;
+    }
+
+    .usertest-h-width{
+        width: 100%;
+    }
+
+    .width-userp-info{
+        width: 100%;
+    }
+
+    #usability .top-pad-sp{
+        padding-top: 1.5rem;
+    }
+
+    .usertest-hr{
+        width: 100%;
+    }
+
+    .bg-uiresearch-dlapp{
+        background-image: url(assets/imgs/Dl-app-ui-SP.jpg);
+        height: 342px;
+    }
+
+    .bg-uxresearch-dlapp{
+        background-image: url(assets/imgs/Dl-app-ux-bg-SP.png);
+        height: 300px;
+    }
+
+    
+}

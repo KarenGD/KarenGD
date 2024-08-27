@@ -1,0 +1,232 @@
+.objectives{
+    background-color: white;
+    
+}
+
+.objective-box{
+    width: 25%;
+    padding:20px 0;
+    border-radius: 10px;
+    background-color: #F6F8F9;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.138);
+}
+
+.layer-black{
+    width: 100%;
+    height: 300px;
+    background-color: #353B3C;
+    top: 0;
+    order: 9999;
+}
+
+.objective-info{    
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 99;
+}
+
+.dc-htwo{
+    font-size: 3rem;
+}
+
+.objectives h4{
+    color:#00FFF0;
+    text-align: center;
+    z-index: 99;
+}
+
+.line-box{
+    border-width: 4px;
+    border-image: linear-gradient(#00FFF0, #EBFF00) 1;
+    border-style: solid;
+    border-radius: 10px;
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   padding: 30px 0;
+
+}
+
+.pad-box{
+    padding: 0 1rem;
+}
+
+.pad-icon-dc{
+    padding-bottom: 10%;
+}
+
+.line-box img{
+    width: 25%;
+}
+
+.dc-black{
+    background-color: #353B3C;
+}
+
+.dc-h-yellow{
+    color: #EBFF00;
+}
+
+.dc-h-cian{
+    color: #00FFF0;
+}
+
+.layer-gradient{
+    background-image: linear-gradient(#00FFF0, #EBFF00);
+    width: 100%;
+    height: 500px;
+    top: 0;
+}
+
+.layer-black-moodboard{
+    background-color: #353B3C;
+    text-align: center;
+    color: white;
+    z-index: 99;
+    position: relative;
+    top: 4rem;
+    padding: 3rem 8rem 3rem 8rem;
+
+}
+
+.sketches-dc{
+    padding-top: 200px;
+}
+
+.bg-dc-texture{
+    background-image: url(assets/imgs/dc-bg-texture.png);
+    background-size: cover;
+    height: 223px;
+}
+
+.dc-accounts-ig{
+    width: 75%;
+}
+
+.dc-prop-width{
+    width: 30%;
+}
+
+.cd-gap-upv{
+ gap: 5%;
+}
+
+.dc-width-bp{
+    width: 80%;
+}
+
+.dc-top-pad{
+    padding-top: 8rem;
+}
+
+@media (max-width:600px){
+
+    .hideonmobile{
+        display: none;
+    }
+
+    .dc-top-pad{
+        padding-top: 4rem;
+    }
+
+    main .flex{
+        flex-wrap: wrap;
+        
+    }
+
+    .half-width{
+        width: 100%;
+    }
+
+    .layer-black{
+        height: 120px;
+    }
+
+    .start .flex {
+        flex-direction: column-reverse;
+    }
+
+    #strategy .flex{
+        flex-direction: column;
+        
+    }
+
+    #strategy img{
+        width: 100%;
+    }
+
+    #strategy .texr-center{
+        text-align: left;
+    }
+
+    .left-margin{
+        margin-left: 0;
+    }
+
+    .dc-prop-width{
+        width: 100%;
+    }
+
+    .dc-width-bp{
+        width: 100%;
+    }
+
+    .dc-htwo{
+        font-size: 2.4rem;
+    }
+
+    #development .texr-center{
+        text-align: left;
+
+    }
+
+    #development .grid{
+        display: block;
+    }
+
+    .layer-black-moodboard{
+        padding: 3rem 0;
+    }
+    .layer-gradient{
+        height: 420px;
+    }
+
+    .sketches-dc{
+        padding-top: 150px;
+    }
+
+    #sketches .texr-center{
+        text-align: left;
+    }
+
+    #logo .texr-center{
+        text-align: left;
+        padding-left: 5%;
+    }
+
+    #logo .flex{
+        flex-direction: column;
+    }
+
+    .half-with{
+        width: 100%;
+    }
+
+    #logo .four-columns-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .bg-dc-texture{
+        background-image: url(assets/imgs/dc-bg-texture-sp.png);
+        height: 80px;
+    }
+}

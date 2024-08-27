@@ -1,0 +1,76 @@
+.hfour-gem{
+    padding-bottom: 0.5rem;
+}
+
+.subh-gem{
+    font-weight: 400;
+}
+
+
+
+.v-gap{
+ margin-bottom: 16px;
+}
+
+.quarter-width{
+    width: 24.1%;
+}
+
+.f-width{
+    width: 100%;
+}
+
+.top-pad{
+    padding-top: 2rem;
+}
+
+.bg-msp{
+    background-color: #273C5B;
+}
+
+.bg-gineco{
+    background-color: #A01F62;
+}
+
+.bg-pedia{
+    background-color: #453367;
+}
+
+.bg-cardio{
+    background-color: #C0262E;
+}
+
+.bg-magazines{
+    background-color: #EBEBE9;
+}
+
+@media (max-width:600px){
+
+    main .flex{
+        display: flex;
+    }
+    .flex{
+        display: block;
+    }
+    .half-with{
+        width: 100%;
+    }
+    .left-margin{
+        margin-left: 0;
+    }
+    .twelve-columns-grid{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .three-fr{
+        grid-column-start: span 2;
+    }
+    .six-fr{
+        grid-column-start: span 4;
+  
+    }
+
+    .texr-center{
+        text-align: left;
+    }
+    
+}
