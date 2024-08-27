@@ -1,0 +1,295 @@
+/* *{
+    border-style: solid;
+    border-color: #e94a37;
+    border-width: 1px;
+} */
+
+.aboutme{
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 8rem;
+}
+
+.aboutme p{
+    color: var(--Crema);
+}
+
+p{
+    font-weight: 300;
+    font-size: 1rem;
+    color: var(--Azulclaro);
+    line-height: 130%;
+}
+
+.aboutme .title-about{
+    text-align: right;
+}
+
+.aboutme img{
+    width: 200px;
+    padding-bottom: 1rem;
+}
+
+.aboutme p{
+    padding-top: 1rem;
+    line-height: 1.8rem;
+    padding-bottom: 2rem;
+}
+
+.p-two{
+    padding-bottom: 0;
+
+}
+
+h6{
+    font-size: 1.5rem;
+    font-weight: 500    ;
+    font-family: Geologica, sans-serif; 
+    padding-bottom: .6rem;
+}
+
+.container-about{
+    width: 65%;
+    margin: auto;
+    /* display: grid; */
+}
+
+.aboutme h2{
+    color: white;
+    text-align: right;
+}
+
+.quote{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    background-color:var(--Crema);
+}
+
+.quote h3{
+    font-family: Geologica, sans-serif;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    text-align: center;
+}
+
+.design-process{
+    background-color: var(--Crema);
+    padding-bottom: 5rem;
+}
+
+.work-experience{
+    color: var(--Crema);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.work-experience h4{
+    color: var(--Naranja);
+    font-size: 3rem;
+    font-family: Outfit, sans-serif;
+    padding-bottom: 4rem;
+}
+
+.work-experience h5{
+    font-size: 2rem;
+    font-family: Geologica, sans-serif;
+}
+
+.work-experience p{
+    color: var(--Crema);
+}
+
+hr{
+    border: 0.1px solid #ebebe935;
+}
+
+.experience{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.diagram-image{
+    display: grid;
+}
+
+.cv{
+    display: flex;
+}
+
+.cv button{
+    background-color: var(--Naranja);
+    color: white;
+    padding: 2px 10px 2px 10px;
+    text-transform:uppercase;
+    margin-left: 10px;
+    border-style: none;
+    cursor: pointer ;
+    font-size: 1rem;
+}
+
+.hideondesktop{
+    display: none;
+}
+
+.step{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 2rem 0 2rem 0 ;
+}
+
+.know-more{
+    padding-top: 2rem;
+}
+
+.step img{
+    height: 120px;
+}
+
+.design-process h4{
+    font-family: Geologica, sans-serif;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: var(--Azuloscuro);
+    padding-bottom: .8rem;
+}
+
+.caption{
+    font-size: .9rem;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 6rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 2rem;
+}
+
+.diagram{
+    width: 80%;
+    margin: auto;
+}
+
+.paragrpah-padding{
+    padding-top: 2rem ;
+    padding-bottom: 3rem ;
+}
+
+.contact p{
+    color: var(--Crema);
+}
+
+@media (min-width : 600px) and (max-width : 1200px){
+    .container-about{
+        width: 75%;
+    }
+    .title-about{
+        width: 50%;
+    }
+
+    .aboutme{
+        gap: 3rem;
+    }
+
+    .aboutme h2{
+        font-size: 7rem;
+    }
+    
+    .quote{
+        padding: 5rem;
+    }
+
+}
+
+@media (max-width:600px){
+    .hideondesktop{
+        display: block;
+    }
+
+    .container-about{
+    width: 90%;
+    margin: auto;
+    }
+
+    .aboutme{
+        padding-top: 4rem;
+        padding-bottom: 6rem;
+        display: block;
+        text-align: left;
+    }
+
+    .aboutme .title-about{
+        text-align: left;
+    }
+
+    .aboutme img{
+        width: 170px;
+        padding-bottom: 1rem;
+        margin-top: 30%;
+    }
+
+    .aboutme .htwo{
+        font-size: 6rem;
+        text-align: left;
+        padding: 1rem 0 3rem 0;
+    }
+
+    .aboutme p{
+        font-size: 1.2rem;
+        padding-bottom: .5rem;
+    }
+
+    .p-two{
+        padding-bottom: 0;
+    }
+
+    .quote {
+        padding: 4rem 1rem 4rem 1rem;
+    }
+
+    .quote h3{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .caption{
+        padding: 1rem 0 .5rem 0 ;
+    }
+
+    .step img{
+        height: 75px;
+    }
+
+    .step{
+        gap: 16px;
+        padding: 3rem 0 0 0;
+    }
+
+    .design-process h4{
+        font-size: 1.3rem;
+    }
+
+    .paragrpah-padding{
+        padding: 3rem 0 1rem 0;
+    }
+
+    .experience{
+        flex-direction: column-reverse;
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    .work-experience h5{
+        padding: 2rem 0 .5rem 0;
+    }
+
+}
