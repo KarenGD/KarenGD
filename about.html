@@ -26,9 +26,9 @@
             </div>
             <nav class="nav__responsive">
                 <ul>
-                    <div onclick=HideNavBarR()><a href="#"><li>About</li></a></div>
-                    <div onclick=HideNavBarR()><a href="#services"><li>Services</li></a></div>
-                    <div onclick=HideNavBarR()><a href="#work"><li>Work</li></a></div>
+                    <div onclick=HideNavBarR()><a href="https://karengd.github.io/KarenGD/about.html"><li>About</li></a></div>
+                    <div onclick=HideNavBarR()><a href="https://karengd.github.io/KarenGD/index.html#services"><li>Services</li></a></div>
+                    <div onclick=HideNavBarR()><a href="https://karengd.github.io/KarenGD/index.html#work"><li>Work</li></a></div>
                 </ul>
             </nav>
         </div>
@@ -41,15 +41,15 @@
            
             <nav>
                 <ul class="nav__center">
-                    <a href="#">
+                    <a href="https://karengd.github.io/KarenGD/about.html">
                         <li class="hideonmobile link1">About</li>
                         <li class="hideonmobile link2">About</li>
                     </a>
-                    <a href="#services">
+                    <a href="https://karengd.github.io/KarenGD/index.html#services">
                         <li class="hideonmobile link1">Services</li>
                         <li class="hideonmobile link2">Services</li>
                     </a>
-                    <a href="#work">
+                    <a href="https://karengd.github.io/KarenGD/index.html#work">
                         <li class="hideonmobile link1">Work</li>
                         <li class="hideonmobile link2">Work</li>
                     </a>
@@ -60,14 +60,14 @@
 
     </header>
     <div class="bg-img">
-        <section class="container-about aboutme">
+        <section class="container aboutme">
             <div class="title-about">
                 <img src="assets/imgs/photo-Karen.png" alt="Karen-Alarcon">
                 <h2 class="htwo">
-                    About me                </h2>
+                    About <br class="hideonmobile"> me                </h2>
     
             </div>
-            <div>
+            <div class="aboutme-info">
                 <p>
                     I’m a graphic designer with more than five years of experience developing visual solutions for businesses and people, which have improved company aspects such as branding, marketing collateral, web interfaces, etc... I like to find the essence of a brand and create the best experience that resonates with their audience to get a memorable interaction and communication.
                 </p>
@@ -222,23 +222,16 @@
                     <p class="sub">Don't hesitate to get in touch!</p>
                         <div class="contact-socialmedia">
                             <div class="contact">
-                                    <a href="#">                        
+                                    <a href="https://www.linkedin.com/in/karen-alarcon-gd/" target="_blank">                        
                                         <img class="socialmediaicon link1" src="assets/iconos/14-linkedin.svg" alt="Linkedin-icon">
                                         <img class="socialmediaicon link2" src="assets/iconos/14-linkedin.svg" alt="Linkedin-icon">
                                         <p class="link1">Linkedin</p>
                                         <p class="link3">Linkedin</p>
                                     </a>
                             </div>
+                            
                             <div class="contact">
-                                <a href="#">                        
-                                    <img class="socialmediaicon link1" src="assets/iconos/Instagram.svg" alt="Instagram-icon">
-                                    <img class="socialmediaicon link2" src="assets/iconos/Instagram.svg" alt="Instagram-icon">
-                                    <p class="link1">Instagram</p>
-                                    <p class="link3">Instagram</p>
-                                </a>
-                            </div>
-                            <div class="contact">
-                                <a href="#">                        
+                                <a href="mailto:karenalarcondg@gmail.com">                        
                                     <img class="socialmediaicon link1" src="assets/iconos/mail.svg" alt="mail-icon">
                                     <img class="socialmediaicon link2" src="assets/iconos/mail.svg" alt="mail-icon">
                                     <p class="link1">karenalarcondg@gmail.com</p>
@@ -294,19 +287,19 @@
                 <div class="navigation">
                     <ul>
                         <div class="hidden">
-                            <a class="hid" href="#">
+                            <a class="hid" href="https://karengd.github.io/KarenGD/about.html">
                                 <li class="link1 hidden">About</li>
                                 <li class="link2 hidden">About</li>
                             </a> 
                          </div>
                         <div class="hidden">
-                            <a class="hid" href="#">
+                            <a class="hid" href="https://karengd.github.io/KarenGD/index.html#services">
                                 <li class="link1">Services</li>
                                 <li class="link2">Services</li>
                             </a>
                         </div>
                         <div class="hidden">
-                            <a class="hid" href="#">
+                            <a class="hid" href="https://karengd.github.io/KarenGD/index.html#work">
                                 <li class="link1">Work</li>
                                 <li class="link2">Work</li>
                             </a>
@@ -332,5 +325,20 @@
     
 
 </footer>
+
+<script src="main.js"></script>
+
+    <script>
+        function ShowNavBarR(){
+            const barnav_responsive = document.querySelector('.barnav_responsive')
+            barnav_responsive.style.display = 'flex'
+        }
+
+        function HideNavBarR(){
+            const barnav_responsive = document.querySelector('.barnav_responsive')
+            barnav_responsive.style.display = 'none'
+        }
+    </script>
+
 </body>
 </html>
