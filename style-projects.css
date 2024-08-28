@@ -340,6 +340,10 @@ main h1{
     object-fit: cover;
 }
 
+.full-with-img{
+    width: 100%;
+    object-fit: cover;
+}
 
 .smbox-first-img{
     grid-column:1/7;
@@ -501,7 +505,7 @@ main h1{
     }
 
     .main-position{
-        bottom: 30%;
+        bottom: 34%;
     }
     
 
