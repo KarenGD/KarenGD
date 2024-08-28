@@ -900,8 +900,12 @@ div.cursors div span.visible{
     }
 
     .servicescolumns .brushstyle{
-        font-size: 4rem;
-        top: 4rem;
+        font-size: 2.9rem;
+        top: 5rem;
+    }
+
+    .servicescolumns .htwo{
+        font-size: 6rem;
     }
 
     .description{
@@ -1089,6 +1093,7 @@ div.cursors div span.visible{
     .descriptiontitle{
         grid-template-columns: 1fr;
         position: relative;
+        text-align: right;
     }
 
     .descriptiontitle2{
