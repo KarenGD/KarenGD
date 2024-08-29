@@ -44,6 +44,30 @@
     background-color: #EBEBE9;
 }
 
+.info-width{
+    grid-column: 1/9;
+}
+
+.add-width{
+    grid-column: 9/13;
+}
+
+@media (min-width : 600px) and (max-width : 1200px){
+    .container-magazine .flex{
+        display: block;
+    }
+
+    .container-magazine .half-with{
+        width: 100%;
+    }
+
+    .container-magazine .left-margin{
+        margin-left: 0;
+    }
+
+    
+}
+
 @media (max-width:600px){
 
     main .flex{

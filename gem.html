@@ -24,32 +24,35 @@
     <header>
         <div class="barnav_responsive">
             <div class="mainlogo nav__flex">
-                <img src="assets/iconos/ka-icon-cream.svg" alt="ka logo">
+                <a href="https://karengd.github.io/KarenGD/index.html"><img src="assets/iconos/ka-icon-cream.svg" alt="ka logo"></a>
                 <div onclick=HideNavBarR()> <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48" fill="#EBEBE9"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg> </div>
             </div>
             <nav class="nav__responsive">
                 <ul>
-                    <a href="#"><li>About</li></a>
-                    <a href="#"><li>Services</li></a>
-                    <a href="#"><li>Work</li></a>
+                    <div onclick=HideNavBarR()><a href="https://karengd.github.io/KarenGD/about.html"><li>About</li></a></div>
+                    <div onclick=HideNavBarR()><a href="https://karengd.github.io/KarenGD/index.html#services"><li>Services</li></a></div>
+                    <div onclick=HideNavBarR()><a href="https://karengd.github.io/KarenGD/index.html#work"><li>Work</li></a></div>
                 </ul>
             </nav>
         </div>
         <div class="barnav container">
-            <div class="mainlogo">
-                <img src="assets/iconos/ka-icon.svg" alt="ka logo">
-            </div>
+            <a href="index.html">
+                <div class="mainlogo">
+                    <img src="assets/iconos/ka-icon.svg" alt="ka logo">
+                </div>
+            </a>
+           
             <nav>
                 <ul class="nav__center">
-                    <a href="#">
+                    <a href="https://karengd.github.io/KarenGD/about.html">
                         <li class="hideonmobile link1">About</li>
                         <li class="hideonmobile link2">About</li>
                     </a>
-                    <a href="#">
+                    <a href="https://karengd.github.io/KarenGD/index.html#services">
                         <li class="hideonmobile link1">Services</li>
                         <li class="hideonmobile link2">Services</li>
                     </a>
-                    <a href="#">
+                    <a href="https://karengd.github.io/KarenGD/index.html#work">
                         <li class="hideonmobile link1">Work</li>
                         <li class="hideonmobile link2">Work</li>
                     </a>
@@ -115,13 +118,16 @@
     </section>
 
     <section class="bg-white ">
-        <div class="bg-cardio white pad_top_bottom">
-            <div class="flex container pad_top_bottom gap">
+        <div class="bg-cardio white pad_top_bottom container-magazine">
+            <div class="flex container pad_top_bottom gap vertical-center ">
                 <div class="half-with">
                     <h4>SALUD Y CARDIOLOGÍA MAGAZINE</h4>
                     <p class="left-margin p_bottom">A magazine focused on wellness and topics related to cardiology. It is targeted at a young audience, approximately 25 to 35 years old. The print magazine disseminates information about medical advancements in the field of cardiology and circulation, while the social media accounts aim to encourage healthy habits among the target audience and provide tips on exercise, warning signs, and more.</p>
                 </div>
-                <img class="half-with" src="assets/imgs/GEM-cardio.png" alt="Health and Cardiology digital magazine">
+                <div class="half-with">
+                    <img src="assets/imgs/GEM-cardio.png" alt="Health and Cardiology digital magazine">
+
+                </div>
     
             </div>
     
@@ -158,29 +164,34 @@
 
         <div class="container top-pad texr-center">
             <h4 class="gray">INPHOGRAPHICS AND WEB ADDS</h4>
-            <div class="flex gap top-pad">
-                <div>
+            <div class="grid twelve-columns-grid gap">
+                <div class="info-width">
                     <img class="v-gap f-width" src="assets/imgs/GEM-cardio-info.jpg" alt="Health and cardiology inphographics">
                     <img class="v-gap f-width" src="assets/imgs/GEM-cardio-gif-01.gif" alt="Promotional web add">
-                    <img class="v-gap f-width" src="assets/imgs/GEM-cardio-gif-2.gif" alt="Promotional web add">
+                    <img class="f-width" src="assets/imgs/GEM-cardio-gif-2.gif" alt="Promotional web add">
                 </div>
-                <img class="hideonmobile" src="assets/imgs/gem-cardio-gif-03.gif" alt="Promotional web add">
+                <div class="add-width hideonmobile">
+                    <img class="f-width" src="assets/imgs/gem-cardio-gif-03.gif" alt="Promotional web add">
+                </div>
             </div>
-            <div>
+            <div >
                 <img src="assets/imgs/gem" alt="">
             </div>
         </div>
     </section>
 
     <section class="pad_top_bottom bg-white">
-        <div class="bg-msp white top-pad">
-            <div class="container flex pad_top_bottom gap">
-                <div class="half-with">
+        <div class="bg-msp white top-pad container-magazine">
+            <div class="container flex pad_top_bottom gap vertical-center ">
+                <div class="half-with ">
                     <h4>MSP MAGAZINE <br>
                         (Medicina y Salud pública)</h4>
                     <p class="left-margin top-pad p_bottom">MSP Magazine (Medicina y Salud Pública) is a specialized magazine focused on disseminating the latest treatments, research, and advancements in medicine. The magazine is targeted at doctors and health specialists, who also contribute their research articles to the magazine's content. The magazine has a more serious and specialized character, so its color palette and the design of its communication pieces are more serious and sober compared to the other magazines of the company.</p>
                 </div>
-                <img class="half-with" src="assets/imgs/GEM-msp.png" alt="Printed magazine covers">
+                <div class="half-with ">
+                    <img src="assets/imgs/GEM-msp.png" alt="Printed magazine covers">
+
+                </div>
             </div>
             <div class="texr-center top-pad">
                 <h4 class="top-pad container">PRINTED MAGAZINE</h4>
@@ -237,13 +248,15 @@
     </section>
 
     <section class="bg-white pad_top_bottom">
-        <div class="bg-pedia white pad_top_bottom">
-            <div class="flex container gap top-pad">
+        <div class="bg-pedia white pad_top_bottom container-magazine">
+            <div class="flex container gap top-pad vertical-center ">
                 <div class="half-with">
                     <h4>PEDIATRÍA Y FAMILIA MAGAZINE</h4>
                     <p class="left-margin p_bottom">Pediatría y Familia es una revista Puertorriqueña enfocada en la divulgación de todo lo relacionado a las enfermedades y la salud de los niños y adolescentes. La revista está dirigida a los padres de familia (más que todo a las madres) quienes encuentran en el material de la revista variedad de tips, noticias y actualización de noticias médicas relacionadas con los niños. </p>
                 </div>
-                <img class="half-with" src="assets/imgs/GEM-pediatria-cover.png" alt="Pediatría magazine">
+                <div class="half-with">
+                    <img  src="assets/imgs/GEM-pediatria-cover.png" alt="Pediatría magazine">
+                </div>
             </div>
     
             <h4 class="texr-center container">PRINTED MAGAZINE</h4>
@@ -286,14 +299,16 @@
     </section>
 
     <section class="bg-white">
-        <div class="bg-gineco white pad_top_bottom">
-            <div class="container flex gap pad_top_bottom">
+        <div class="bg-gineco white pad_top_bottom container-magazine">
+            <div class="container flex gap pad_top_bottom vertical-center">
                 <div class="half-with top-pad">
                     <h4>GINECOLOGÍA Y OBSTETRICIA MAGAZINE</h4>
                     <p class="left-margin p_bottom">Pediatría y Familia is a Puerto Rican magazine focused on disseminating everything related to children's and teenage's diseases, health and wellbeing. The magazine is targeted at parents (primarily mothers), who find a variety of tips, news, and updates on medical news related to children in the magazine's content. 
                     </p>
                 </div>
-                <img class="half-with" src="assets/imgs/GEM-gineco-cover.png" alt="gynecology and obstetrics magazine">
+                <div class="half-with">
+                    <img src="assets/imgs/GEM-gineco-cover.png" alt="gynecology and obstetrics magazine">
+                </div>
             </div>
             <h4 class="texr-center container">PRINTED MAGAZINE</h4>
 
@@ -346,24 +361,26 @@
                      <div class="project__info absolute">
                          <h3>DANI CONDE</h3>
                          <p>Generate brand strategies to create an attractive and impactful visual identity, leading to better communication with Dani Conde's followers.</p>
-                         <div class="bt-project__info">
-                            <p>View project  </p> 
-                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                    width="20px" viewBox="0 0 13 13"  fill="white" xml:space="preserve">
-                             <polygon class="st0" points="10.5,12.5 0.5,12.5 0.5,2.5 5.5,2.5 5.5,3.5 1.5,3.5 1.5,11.5 9.5,11.5 9.5,7 10.5,7 "/>
-                             <path class="st0" d="M12,0.5H7.5C7.2,0.5,7,0.7,7,1s0.2,0.5,0.5,0.5h3.3L5.7,6.6l0.7,0.7l5.1-5.1v3.3C11.5,5.8,11.7,6,12,6
-                                    c0.3,0,0.5-0.2,0.5-0.5V1C12.5,0.7,12.3,0.5,12,0.5z"/>
-                             </svg>
-                         </div>
+                         <a href="https://karengd.github.io/KarenGD/daniConde.html">
+                            <div class="bt-project__info">
+                                <p>View project  </p> 
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        width="20px" viewBox="0 0 13 13"  fill="white" xml:space="preserve">
+                                <polygon class="st0" points="10.5,12.5 0.5,12.5 0.5,2.5 5.5,2.5 5.5,3.5 1.5,3.5 1.5,11.5 9.5,11.5 9.5,7 10.5,7 "/>
+                                <path class="st0" d="M12,0.5H7.5C7.2,0.5,7,0.7,7,1s0.2,0.5,0.5,0.5h3.3L5.7,6.6l0.7,0.7l5.1-5.1v3.3C11.5,5.8,11.7,6,12,6
+                                        c0.3,0,0.5-0.2,0.5-0.5V1C12.5,0.7,12.3,0.5,12,0.5z"/>
+                                </svg>
+                            </div>
+                        </a>
                      </div>
                  </div>
                 
                  <div class="info-project six-fr relative white overflow-hidden">
-                    <img src="assets/imgs/deportelocalapp.jpg" alt="">
+                    <img src="assets/imgs/Dl-app-portada.jpg" alt="">
                     <div class="project__info absolute">
                          <h3>"DEPORTE LOCAL" APP</h3>
                          <p>Case study of 'Deporte Local', the app empowering sports enthusiasts to organize events, competitions, and groups across Bogotá city.</p>
-                         <a href="deporte local app.html"><div class="bt-project__info">
+                         <a href="https://karengd.github.io/KarenGD/deporte%20local%20app.html"><div class="bt-project__info">
                             <p>View project  </p> 
                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                     width="20px" viewBox="0 0 13 13"  fill="white" xml:space="preserve">
@@ -382,15 +399,17 @@
                     <div class="project__info absolute">
                         <h3>APD</h3>
                         <p>Propose branding strategies and rejuvenate the visual identity of the company, enhancing positioning and messaging to cultivate a stronger brand perception.</p>
+                        <a href="https://karengd.github.io/KarenGD/apd.html">
                         <div class="bt-project__info">
-                            <p>View project</p> 
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                width="20px" viewBox="0 0 13 13"  fill="white" xml:space="preserve">
-                            <polygon class="st0" points="10.5,12.5 0.5,12.5 0.5,2.5 5.5,2.5 5.5,3.5 1.5,3.5 1.5,11.5 9.5,11.5 9.5,7 10.5,7 "/>
-                            <path class="st0" d="M12,0.5H7.5C7.2,0.5,7,0.7,7,1s0.2,0.5,0.5,0.5h3.3L5.7,6.6l0.7,0.7l5.1-5.1v3.3C11.5,5.8,11.7,6,12,6
-                                c0.3,0,0.5-0.2,0.5-0.5V1C12.5,0.7,12.3,0.5,12,0.5z"/>
-                            </svg>
-                        </div>
+                                <p>View project</p> 
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    width="20px" viewBox="0 0 13 13"  fill="white" xml:space="preserve">
+                                <polygon class="st0" points="10.5,12.5 0.5,12.5 0.5,2.5 5.5,2.5 5.5,3.5 1.5,3.5 1.5,11.5 9.5,11.5 9.5,7 10.5,7 "/>
+                                <path class="st0" d="M12,0.5H7.5C7.2,0.5,7,0.7,7,1s0.2,0.5,0.5,0.5h3.3L5.7,6.6l0.7,0.7l5.1-5.1v3.3C11.5,5.8,11.7,6,12,6
+                                    c0.3,0,0.5-0.2,0.5-0.5V1C12.5,0.7,12.3,0.5,12,0.5z"/>
+                                </svg>
+                         </div>
+                        </a> 
                     </div>
                 </div>
             </div>
@@ -408,7 +427,7 @@
                     <p class="sub">Don't hesitate to get in touch!</p>
                         <div class="contact-socialmedia">
                             <div class="contact">
-                                    <a href="www.linkedin.com/in/karen-alarcon-gd">                        
+                                    <a href="https://www.linkedin.com/in/karen-alarcon-gd/" target="_blank">                        
                                         <img class="socialmediaicon link1" src="assets/iconos/14-linkedin.svg" alt="Linkedin-icon">
                                         <img class="socialmediaicon link2" src="assets/iconos/14-linkedin.svg" alt="Linkedin-icon">
                                         <p class="link1">Linkedin</p>
@@ -473,19 +492,19 @@
                 <div class="navigation">
                     <ul>
                         <div class="hidden">
-                            <a class="hid" href="about.html">
+                            <a class="hid" href="https://karengd.github.io/KarenGD/about.html">
                                 <li class="link1 hidden">About</li>
                                 <li class="link2 hidden">About</li>
                             </a> 
                          </div>
                         <div class="hidden">
-                            <a class="hid" href="#services">
+                            <a class="hid" href="https://karengd.github.io/KarenGD/index.html#services">
                                 <li class="link1">Services</li>
                                 <li class="link2">Services</li>
                             </a>
                         </div>
                         <div class="hidden">
-                            <a class="hid" href="#work">
+                            <a class="hid" href="https://karengd.github.io/KarenGD/index.html#work">
                                 <li class="link1">Work</li>
                                 <li class="link2">Work</li>
                             </a>
@@ -511,6 +530,20 @@
     
 
 </footer>
+
+<script src="main.js"></script>
+
+<script>
+    function ShowNavBarR(){
+        const barnav_responsive = document.querySelector('.barnav_responsive')
+        barnav_responsive.style.display = 'flex'
+    }
+
+    function HideNavBarR(){
+        const barnav_responsive = document.querySelector('.barnav_responsive')
+        barnav_responsive.style.display = 'none'
+    }
+</script>
 
 </body>
 </html>
