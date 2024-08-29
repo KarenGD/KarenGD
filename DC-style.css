@@ -4,11 +4,11 @@
 }
 
 .objective-box{
-    width: 25%;
+    width: 300px;
+    height: 350px;
     padding:20px 0;
     border-radius: 10px;
     background-color: #F6F8F9;
-    align-items: center;
     justify-content: center;
     text-align: center;
     display: flex;
@@ -47,12 +47,13 @@
     border-image: linear-gradient(#00FFF0, #EBFF00) 1;
     border-style: solid;
     border-radius: 10px;
-    height: 90%;
-    width: 90%;
+    height: 100%;
+    width: 85%;
     display: flex;
     flex-direction: column;
    align-items: center;
    padding: 30px 0;
+   justify-content: center;
 
 }
 
@@ -128,11 +129,31 @@
     padding-top: 8rem;
 }
 
+@media (min-width : 600px) and (max-width : 1200px){
+    #strategy .eight-fr{
+        grid-column-start: span 7;
+    }
+
+    #strategy .four-fr{
+        grid-column-start: span 5;
+    }
+
+    #development .three-fr{
+        grid-column-start: span 4;
+    }
+
+    #development .seven-fr{
+        grid-column-start: span 6;
+    }
+}
+
+
 @media (max-width:600px){
 
     .hideonmobile{
         display: none;
     }
+
 
     .dc-top-pad{
         padding-top: 4rem;
@@ -151,7 +172,8 @@
         height: 120px;
     }
 
-    .start .flex {
+    .start .grid {
+        display: flex;
         flex-direction: column-reverse;
     }
 
