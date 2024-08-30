@@ -24,32 +24,35 @@
     <header>
         <div class="barnav_responsive">
             <div class="mainlogo nav__flex">
-                <img src="assets/iconos/ka-icon-cream.svg" alt="ka logo">
+                <a href="https://karengd.github.io/KarenGD/index.html"><img src="assets/iconos/ka-icon-cream.svg" alt="ka logo"></a>
                 <div onclick=HideNavBarR()> <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48" fill="#EBEBE9"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg> </div>
             </div>
             <nav class="nav__responsive">
                 <ul>
-                    <a href="#"><li>About</li></a>
-                    <a href="#"><li>Services</li></a>
-                    <a href="#"><li>Work</li></a>
+                    <div onclick=HideNavBarR()><a href="https://karengd.github.io/KarenGD/about.html"><li>About</li></a></div>
+                    <div onclick=HideNavBarR()><a href="https://karengd.github.io/KarenGD/index.html#services"><li>Services</li></a></div>
+                    <div onclick=HideNavBarR()><a href="https://karengd.github.io/KarenGD/index.html#work"><li>Work</li></a></div>
                 </ul>
             </nav>
         </div>
         <div class="barnav container">
-            <div class="mainlogo">
-                <img src="assets/iconos/ka-icon.svg" alt="ka logo">
-            </div>
+            <a href="index.html">
+                <div class="mainlogo">
+                    <img src="assets/iconos/ka-icon.svg" alt="ka logo">
+                </div>
+            </a>
+           
             <nav>
                 <ul class="nav__center">
-                    <a href="#">
+                    <a href="https://karengd.github.io/KarenGD/about.html">
                         <li class="hideonmobile link1">About</li>
                         <li class="hideonmobile link2">About</li>
                     </a>
-                    <a href="#">
+                    <a href="https://karengd.github.io/KarenGD/index.html#services">
                         <li class="hideonmobile link1">Services</li>
                         <li class="hideonmobile link2">Services</li>
                     </a>
-                    <a href="#">
+                    <a href="https://karengd.github.io/KarenGD/index.html#work">
                         <li class="hideonmobile link1">Work</li>
                         <li class="hideonmobile link2">Work</li>
                     </a>
@@ -113,7 +116,8 @@
 
         <div class="container flex gap pad_top_bottom vertical-center">
             <div class="image-objective">
-                <img class="hideonmobile" src="assets/imgs/Dl-app-objective.png" alt="people playing voleyball">
+                <img class="hideonmobile hidetbl" src="assets/imgs/Dl-app-objective.png" alt="people playing voleyball">
+                <img class="showtbl" src="assets/imgs/dl-app-objective-tbl.jpg" alt="people playing voleyball">
             </div>
             <div class="objective-info gray">
                 <div class="ob-flex gap">
@@ -420,8 +424,12 @@
     
             </div>
         </div>
+        
+    </section>
+
+    <section id="similarity-matrix" class="white">
         <div class="container flex pad_top_bottom gap vertical-center">
-            <div>
+            <div class="texr-center">
                 <img src="assets/imgs/dl-app-matrix-similarity.jpg" alt="matrix-similarity">
             </div>
             <div class="similarity-info">
@@ -430,7 +438,6 @@
                 <p>As shown in the similarity matrix, participants identified 100% of the terms within a category related to sports. They mostly categorized time-related terms concerning days of the week and months. Participants created a more varied classification for personal data and terms like athlete, enthusiast, participant, etc. Finally, there were two terms that caused confusion during the activity, as they were not clearly related to other words: "weekends" and "competition."</p>
             </div>
         </div>
-        
     </section>
 
     <section id="architecture-info" class="bg-white pad_top_bottom">
@@ -688,15 +695,17 @@
                      <div class="project__info absolute">
                          <h3>DANI CONDE</h3>
                          <p>Generate brand strategies to create an attractive and impactful visual identity, leading to better communication with Dani Conde's followers.</p>
-                         <div class="bt-project__info">
-                            <p>View project  </p> 
-                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                    width="20px" viewBox="0 0 13 13"  fill="white" xml:space="preserve">
-                             <polygon class="st0" points="10.5,12.5 0.5,12.5 0.5,2.5 5.5,2.5 5.5,3.5 1.5,3.5 1.5,11.5 9.5,11.5 9.5,7 10.5,7 "/>
-                             <path class="st0" d="M12,0.5H7.5C7.2,0.5,7,0.7,7,1s0.2,0.5,0.5,0.5h3.3L5.7,6.6l0.7,0.7l5.1-5.1v3.3C11.5,5.8,11.7,6,12,6
-                                    c0.3,0,0.5-0.2,0.5-0.5V1C12.5,0.7,12.3,0.5,12,0.5z"/>
-                             </svg>
-                         </div>
+                         <a href="https://karengd.github.io/KarenGD/daniConde.html">
+                            <div class="bt-project__info">
+                                <p>View project  </p> 
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        width="20px" viewBox="0 0 13 13"  fill="white" xml:space="preserve">
+                                <polygon class="st0" points="10.5,12.5 0.5,12.5 0.5,2.5 5.5,2.5 5.5,3.5 1.5,3.5 1.5,11.5 9.5,11.5 9.5,7 10.5,7 "/>
+                                <path class="st0" d="M12,0.5H7.5C7.2,0.5,7,0.7,7,1s0.2,0.5,0.5,0.5h3.3L5.7,6.6l0.7,0.7l5.1-5.1v3.3C11.5,5.8,11.7,6,12,6
+                                        c0.3,0,0.5-0.2,0.5-0.5V1C12.5,0.7,12.3,0.5,12,0.5z"/>
+                                </svg>
+                            </div>
+                        </a>
                      </div>
                  </div>
                 
@@ -705,7 +714,7 @@
                     <div class="project__info absolute">
                          <h3>APD PROFESIONALES DE DRONES</h3>
                          <p>Propose branding strategies and rejuvenate the visual identity of the company, enhancing positioning and messaging to cultivate a stronger brand perception.</p>
-                         <a href="deporte local app.html"><div class="bt-project__info">
+                         <a href="https://karengd.github.io/KarenGD/apd.html"><div class="bt-project__info">
                             <p>View project  </p> 
                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                     width="20px" viewBox="0 0 13 13"  fill="white" xml:space="preserve">
@@ -724,15 +733,17 @@
                     <div class="project__info absolute">
                         <h3>GEM Publiching house</h3>
                         <p>Develop visually compelling designs for digital and print magazines, aimed at enhancing customers' comprehension of health and wellbeing information.</p>
-                        <div class="bt-project__info">
-                            <p>View project</p> 
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                width="20px" viewBox="0 0 13 13"  fill="white" xml:space="preserve">
-                            <polygon class="st0" points="10.5,12.5 0.5,12.5 0.5,2.5 5.5,2.5 5.5,3.5 1.5,3.5 1.5,11.5 9.5,11.5 9.5,7 10.5,7 "/>
-                            <path class="st0" d="M12,0.5H7.5C7.2,0.5,7,0.7,7,1s0.2,0.5,0.5,0.5h3.3L5.7,6.6l0.7,0.7l5.1-5.1v3.3C11.5,5.8,11.7,6,12,6
-                                c0.3,0,0.5-0.2,0.5-0.5V1C12.5,0.7,12.3,0.5,12,0.5z"/>
-                            </svg>
-                        </div>
+                        <a href="https://karengd.github.io/KarenGD/gem.html">
+                            <div class="bt-project__info">
+                                <p>View project</p> 
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    width="20px" viewBox="0 0 13 13"  fill="white" xml:space="preserve">
+                                <polygon class="st0" points="10.5,12.5 0.5,12.5 0.5,2.5 5.5,2.5 5.5,3.5 1.5,3.5 1.5,11.5 9.5,11.5 9.5,7 10.5,7 "/>
+                                <path class="st0" d="M12,0.5H7.5C7.2,0.5,7,0.7,7,1s0.2,0.5,0.5,0.5h3.3L5.7,6.6l0.7,0.7l5.1-5.1v3.3C11.5,5.8,11.7,6,12,6
+                                    c0.3,0,0.5-0.2,0.5-0.5V1C12.5,0.7,12.3,0.5,12,0.5z"/>
+                                </svg>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -750,23 +761,16 @@
                     <p class="sub">Don't hesitate to get in touch!</p>
                         <div class="contact-socialmedia">
                             <div class="contact">
-                                    <a href="#">                        
+                                    <a href="https://www.linkedin.com/in/karen-alarcon-gd/" target="_blank">                        
                                         <img class="socialmediaicon link1" src="assets/iconos/14-linkedin.svg" alt="Linkedin-icon">
                                         <img class="socialmediaicon link2" src="assets/iconos/14-linkedin.svg" alt="Linkedin-icon">
                                         <p class="link1">Linkedin</p>
                                         <p class="link3">Linkedin</p>
                                     </a>
                             </div>
+                            
                             <div class="contact">
-                                <a href="#">                        
-                                    <img class="socialmediaicon link1" src="assets/iconos/Instagram.svg" alt="Instagram-icon">
-                                    <img class="socialmediaicon link2" src="assets/iconos/Instagram.svg" alt="Instagram-icon">
-                                    <p class="link1">Instagram</p>
-                                    <p class="link3">Instagram</p>
-                                </a>
-                            </div>
-                            <div class="contact">
-                                <a href="#">                        
+                                <a href="mailto:karenalarcondg@gmail.com">                        
                                     <img class="socialmediaicon link1" src="assets/iconos/mail.svg" alt="mail-icon">
                                     <img class="socialmediaicon link2" src="assets/iconos/mail.svg" alt="mail-icon">
                                     <p class="link1">karenalarcondg@gmail.com</p>
@@ -822,19 +826,19 @@
                 <div class="navigation">
                     <ul>
                         <div class="hidden">
-                            <a class="hid" href="#">
+                            <a class="hid" href="https://karengd.github.io/KarenGD/about.html">
                                 <li class="link1 hidden">About</li>
                                 <li class="link2 hidden">About</li>
                             </a> 
                          </div>
                         <div class="hidden">
-                            <a class="hid" href="#">
+                            <a class="hid" href="https://karengd.github.io/KarenGD/index.html#services">
                                 <li class="link1">Services</li>
                                 <li class="link2">Services</li>
                             </a>
                         </div>
                         <div class="hidden">
-                            <a class="hid" href="#">
+                            <a class="hid" href="https://karengd.github.io/KarenGD/index.html#work">
                                 <li class="link1">Work</li>
                                 <li class="link2">Work</li>
                             </a>
@@ -861,5 +865,18 @@
 
 </footer>
 
+<script src="main.js"></script>
+
+<script>
+    function ShowNavBarR(){
+        const barnav_responsive = document.querySelector('.barnav_responsive')
+        barnav_responsive.style.display = 'flex'
+    }
+
+    function HideNavBarR(){
+        const barnav_responsive = document.querySelector('.barnav_responsive')
+        barnav_responsive.style.display = 'none'
+    }
+</script>
 </body>
 </html>

@@ -26,6 +26,8 @@
     color: #DCF219;
 }
 
+
+
 .bg-uxresearch-dlapp{
     background-image: url(assets/imgs/Dl-app-ux-bg.jpg);
     height: 575px;
@@ -141,8 +143,105 @@
     display: flex;
 }
 
-@media (min-width : 600px) and (max-width : 1200px){
+.showtbl{
+    display: none;
+}
 
+@media (min-width : 600px) and (max-width : 1200px){
+    
+    .hidetbl{
+        display: none;
+    }
+
+    .showtbl{
+        display: block;
+    }
+
+    #objective .flex{
+        display: block;
+    }
+
+    #objective .objective-info{
+        width: 100%;
+    }
+
+    #objective .image-objective{
+        width: 100%;
+        padding-bottom: 6rem;
+    
+    }
+
+    #objective .image-objective img{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    #uvp .dl-unv-p{
+        width: 80%;
+    }
+
+    .dl-apps-pad{
+        padding: 0 0 4rem 0;
+    }
+    
+    .center-table{
+        padding-right: 3rem;
+    }
+
+    .img-dl-width{
+        width: 70%;
+    }
+
+    #users .ob-flex{
+        display: block ;
+    }
+
+    #users .icon-width{
+        width: 70px;
+    }
+
+    .margin-both{
+        margin-left: 0 ;
+        margin-right:  0;
+    }
+
+    #similarity-matrix .flex{
+        flex-direction: column-reverse;
+    }
+
+    #similarity-matrix .similarity-info{
+        width: 100%;
+        padding-bottom: 4rem;
+    }
+
+    #similarity-matrix img{
+        width: 70%;
+        
+    }
+
+    #similarity-matrix .pad_top_bottom{
+        padding-top: 0;
+    }
+
+    #architecture-info .pad_top_bottom{
+        padding-bottom: 0;
+    }
+    #prototyping .pad_top_bottom{
+        padding-bottom: 3rem;
+
+    }
+
+    .width-userp-info{
+        width: 70%;
+    }
+
+    .usertest-h-width{
+        width: 30%;
+    }
+
+    .usertest-hfive{
+        font-size: 1.2rem;
+    }
 }
 
 @media (max-width:600px){
@@ -228,8 +327,17 @@
         margin: 0;
     }
 
+    #similarity-matrix .flex{
+        flex-direction: column-reverse;
+    }
+
+    #similarity-matrix .pad_top_bottom{
+        padding-top: 0;
+    }
+
     .similarity-info{
         width: 100%;
+        padding-bottom: 2rem;
     }
 
     #architecture-info .texr-center{
