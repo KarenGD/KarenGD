@@ -148,6 +148,10 @@
 }
 
 @media (min-width : 600px) and (max-width : 1200px){
+
+    h1{
+        font-size: 5rem;
+    }
     
     .hidetbl{
         display: none;

@@ -55,6 +55,15 @@
     object-fit: cover;
 }
 
+@media (min-width : 600px) and (max-width : 1200px){
+    .Tablet .big-img{
+        grid-column: span 12;
+    }
+    h1{
+        font-size: 5rem;
+    }
+}
+
 @media (max-width:600px){
     .box-gallery{
         grid-template-columns: repeat(4, 1fr);
