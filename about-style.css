@@ -74,6 +74,16 @@ h6{
     background-color:var(--Crema);
 }
 
+.quote-author{
+    font-weight: 500;
+    font-size: 1.7rem;
+    padding: 1rem 0 0 50%;
+    font-family: Kaushan Script;
+    color: var(--Naranja);
+    text-align: center;
+    padding-left: 50%;
+}
+
 .quote h3{
     font-family: Geologica, sans-serif;
     font-size: 2.5rem;
@@ -122,6 +132,14 @@ hr{
 
 .diagram-image{
     display: grid;
+}
+
+.vertical-center{
+    justify-content: center;
+}
+
+.gray{
+    color: var(--Azulclaro);
 }
 
 .cv{
@@ -261,12 +279,16 @@ hr{
     }
 
     .quote {
-        padding: 4rem 1rem 4rem 1rem;
+        padding: 4rem 1rem 1rem 1rem;
     }
 
     .quote h3{
         font-size: 1.5rem;
         line-height: 2rem;
+    }
+
+    .quote-author{
+        padding: 0.5rem 0 0 0;
     }
 
     .caption{
