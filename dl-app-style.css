@@ -11,7 +11,7 @@
 }
 
 .dl-imgtwo-objective{
-    width: 500px;
+    width: 200px;
 }
 
 .bg-dark-dlapp{
@@ -26,7 +26,10 @@
     color: #DCF219;
 }
 
-
+.objective-info .li-table li{
+    font-size: 1.125rem;
+    padding-top: 1rem;
+}
 
 .bg-uxresearch-dlapp{
     background-image: url(assets/imgs/Dl-app-ux-bg.jpg);
@@ -155,6 +158,10 @@
     
     .hidetbl{
         display: none;
+    }
+
+    .htwo{
+        font-size: 6.5rem;
     }
 
     .showtbl{
